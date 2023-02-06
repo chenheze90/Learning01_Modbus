@@ -1,0 +1,14 @@
+D:\WorkSpaceGit\Le01_Modbus\Modbus\Modbus\bin\Debug\Modbus.exe.config
+D:\WorkSpaceGit\Le01_Modbus\Modbus\Modbus\bin\Debug\Modbus.exe
+D:\WorkSpaceGit\Le01_Modbus\Modbus\Modbus\bin\Debug\Modbus.pdb
+D:\WorkSpaceGit\Le01_Modbus\Modbus\Modbus\bin\Debug\NModbus.dll
+D:\WorkSpaceGit\Le01_Modbus\Modbus\Modbus\bin\Debug\NModbus.xml
+D:\WorkSpaceGit\Le01_Modbus\Modbus\Modbus\obj\Debug\Modbus.csproj.AssemblyReference.cache
+D:\WorkSpaceGit\Le01_Modbus\Modbus\Modbus\obj\Debug\Modbus.csproj.SuggestedBindingRedirects.cache
+D:\WorkSpaceGit\Le01_Modbus\Modbus\Modbus\obj\Debug\Modbus.Form1.resources
+D:\WorkSpaceGit\Le01_Modbus\Modbus\Modbus\obj\Debug\Modbus.Properties.Resources.resources
+D:\WorkSpaceGit\Le01_Modbus\Modbus\Modbus\obj\Debug\Modbus.csproj.GenerateResource.cache
+D:\WorkSpaceGit\Le01_Modbus\Modbus\Modbus\obj\Debug\Modbus.csproj.CoreCompileInputs.cache
+D:\WorkSpaceGit\Le01_Modbus\Modbus\Modbus\obj\Debug\Modbus.csproj.CopyComplete
+D:\WorkSpaceGit\Le01_Modbus\Modbus\Modbus\obj\Debug\Modbus.exe
+D:\WorkSpaceGit\Le01_Modbus\Modbus\Modbus\obj\Debug\Modbus.pdb
