@@ -26,6 +26,11 @@ namespace Modbus
             richTextBox1.AppendText(string.Join(",", values) + "\r\n");
         }
 
+        private void ReadColDatas(ushort[] values)
+        {
+            richTextBox1.AppendText(string.Join(",", values) + "\r\n");
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             bool[] res = master.ReadCoils(1, 1, 5);
@@ -40,12 +45,14 @@ namespace Modbus
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            ushort[] res = master.ReadHoldingRegisters(1, (ushort)0, (ushort)4);
+            ReadColDatas(res);
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            ushort[] res = master.ReadInputRegisters(1, (ushort)0, (ushort)4);
+            ReadColDatas(res);
         }
 
         /// <summary>
@@ -58,9 +65,33 @@ namespace Modbus
             master.WriteSingleCoil(1, 1, true);
         }
 
+        /// <summary>
+        /// 写入单寄存器
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button6_Click(object sender, EventArgs e)
         {
+            master.WriteSingleRegister(1, (ushort)4, (ushort)56);
+        }
+        /// <summary>
+        /// 写入多线圈
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void button7_Click(object sender, EventArgs e)
+        {
+            master.WriteMultipleCoils(1, (ushort)0, new bool[] { true, true, false, true });
+        }
 
+        /// <summary>
+        /// 写入多寄存器
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void button8_Click(object sender, EventArgs e)
+        {
+            master.WriteMultipleRegisters(1, (ushort)2, new ushort[] { 22, 33, 44, 55 });
         }
     }
 }
